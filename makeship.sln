@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "makeship", "makeship\makeship.csproj", "{5D859C70-7187-41BE-BDF7-49A126C0994C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{101C06D8-B981-421F-BCE6-9E05A80C3A3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D859C70-7187-41BE-BDF7-49A126C0994C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D859C70-7187-41BE-BDF7-49A126C0994C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D859C70-7187-41BE-BDF7-49A126C0994C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D859C70-7187-41BE-BDF7-49A126C0994C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101C06D8-B981-421F-BCE6-9E05A80C3A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101C06D8-B981-421F-BCE6-9E05A80C3A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101C06D8-B981-421F-BCE6-9E05A80C3A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101C06D8-B981-421F-BCE6-9E05A80C3A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3286B611-5064-4F90-96EE-1BE4944BC2B7}
+	EndGlobalSection
+EndGlobal

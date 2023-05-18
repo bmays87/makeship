@@ -1,0 +1,19 @@
+﻿@*@model Logic.ViewModels.WorkOrdersViewModel*@
+
+@{
+    ViewBag.Title = "Work Orders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="wm-orders">
+
+    <iframe id="_IFPrintcontent" style="height: 0px; width: 0px; position: absolute"></iframe>
+
+    <div id="_Orders" style="display: flex;"></div>
+
+    <div id="_Instruction" style="display: flex"></div>
+
+</div>
+
+@section Scripts {
+    <script type="module" src="@Url.Content("~/dist/js/WorkOrders.js")"></script>
+}

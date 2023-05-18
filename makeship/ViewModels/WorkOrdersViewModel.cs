@@ -1,0 +1,18 @@
+﻿using DataLayer.Models;
+using Logic.Helpers;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Logic.ViewModels
+{
+    public class WorkOrdersViewModel : BaseViewModel
+    {
+        public WorkOrdersViewModel()
+        {
+           
+        }       
+    }
+}
